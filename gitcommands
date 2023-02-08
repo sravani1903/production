@@ -1,0 +1,83 @@
+1.	git clone
+2.	git config --global user.name
+3.	git config --global user.mail
+4.	git config --list
+5.	touch file1
+6.	git add file1
+7.	git commit -m "msg"
+8.	git status
+9.	git log 
+10.	git show
+
+11.	git reset head file1
+12.	git reset soft CID
+13.	or
+14.	git reset HEAD~1
+15.	git reset mixed cid
+
+16.	git commit -am "msg"
+
+17.	git pull
+18.	git push
+
+19.	git log --oneline
+20.	git log -n
+
+        git branch -a
+21.	git branch
+22.	git branch branch name(release 1.0)
+23.	git branch -b branch name
+24.	git checkout release 1.0
+25.	git merge release 1.0
+26.	git branch -d release 1.0
+27.	git push -u origin release 1.0
+28.	git push -d origin master
+29.	rm file1 add,commit,push
+
+30.	git diff
+31.	git cherrypick file
+32.	git stash list
+33.	git stash save "example"
+34.	git stash show show -p stash name
+
+
+35.	pop
+36.	apply
+37.	drop
+
+
+38.	pop=======
+39.	git stash pop
+40.	git stash pop stash@{2}
+
+41.	apply=====
+42.	git stash apply
+43.	git stash apply stash@{2}
+
+44.	drop=======
+45.	git stash drop
+46.	git stash drop@{2}
+
+
+
+
+47.	git tag
+48.	git tag v1.1
+49.	git tag -d v1.1
+50.	git tag-1.1 cid
+51.	git push origin --tags
+52.	git push origin tag-1.1
+53.	git tag -d v1.1
+54.	git tag tag-1.1 cid
+
+55.	git commit --amend -m "f1 to f5" 
+
+56.	git ignore
+57.	git merge
+58.	git rebase
+ 
+
+59.	git pull =git fetch + merge
+60.	git branch -r or -a(remote master)
+
+
